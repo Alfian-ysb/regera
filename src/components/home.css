@@ -1,0 +1,11 @@
+.hover\:glowing-text:hover {
+    text-shadow: 0 0 15px blue;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.home-bg {
+    background-image: url('../src/assets/background-home.svg') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

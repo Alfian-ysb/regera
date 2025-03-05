@@ -1,0 +1,17 @@
+#autoSkin-left{
+ position: relative;   
+}
+
+#autoSkin-left::after{
+    content: "" ;
+    background: url("src/assets/autoskin-hero.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: -10px;
+    left: 75px;
+    width: 425px;
+    height: 100%;
+    opacity: 1; /* Bisa dikurangi untuk efek transparan */
+    z-index: 5;
+}

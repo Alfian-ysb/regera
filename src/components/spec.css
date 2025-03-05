@@ -1,0 +1,13 @@
+@import url('../index.css');
+
+#spec-title {
+    font-family: "Inter", serif;
+}
+
+#spec-content {
+    font-family: "Bai Jamjuree", serif;
+}
+
+#spec-quote {
+    font-family: "Anek Gujarati", serif;
+}

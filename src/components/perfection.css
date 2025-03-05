@@ -1,0 +1,8 @@
+@import url('../index.css');
+
+#perfection-title {
+    font-family: "Ubuntu Sans", serif;
+}
+#perfection-text > p {
+    font-family: "Bai Jamjuree", serif;
+}
