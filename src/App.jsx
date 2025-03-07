@@ -4,8 +4,10 @@ import Navbar from '../src/components/navbar.jsx';
 import Perfection from '../src/components/perfection.jsx';
 import Spec from '../src/components/spec.jsx';
 import Banner1 from './components/banner1.jsx';
-import CarComponents from './components/carComponents.jsx'
-import AutoSkin from './components/autoskin.jsx'
+import CarComponents from './components/carComponents.jsx';
+import AutoSkin from './components/autoskin.jsx';
+import Banner2 from './components/banner2.jsx';
+import Clip2 from './components/clip2.jsx';
 import './App.css';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <Banner1 />
       <CarComponents />
       <AutoSkin />
+      <Banner2 />
+      <Clip2 /> 
     </div>
   
   )
