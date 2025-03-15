@@ -1,5 +1,4 @@
 import React from 'react'
-import './banner1.css'
 
 const banner1 = () => {
   return (
@@ -8,7 +7,6 @@ const banner1 = () => {
       <span className="absolute inset-0 flex items-end justify-center font-redHatDisplay font-light underline underline-offset-8 text-white text-2xl after:content-['Power_Without_Boundaries,_Luxury_Without_Limits'] mb-8">
 
       </span>
-
     </div>
   )
 }

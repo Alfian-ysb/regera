@@ -7,7 +7,8 @@ import Banner1 from './components/banner1.jsx';
 import CarComponents from './components/carComponents.jsx';
 import AutoSkin from './components/autoskin.jsx';
 import Banner2 from './components/banner2.jsx';
-import Clip2 from './components/clip2.jsx';
+import Clip from './components/clip2.jsx';
+import Footer from './components/footer.jsx';
 import './App.css';
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       <CarComponents />
       <AutoSkin />
       <Banner2 />
-      <Clip2 /> 
+      <Clip />
+      <Footer />
     </div>
   
   )

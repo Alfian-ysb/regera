@@ -5,8 +5,17 @@
     --font-istockWeb: "Istok Web", sans-serif;
     --font-ubuntuSans: "Ubuntu Sans", sans-serif;
     --font-redHatDisplay: "Red Hat Display", sans-serif;
+    --font-lunasima: "Lunasima", sans-serif;
+    --font-leagueSpartan: "League Spartan", sans-serif;
     --color-component-black: #010101;
     --color-component-white: #f0f0f0;
     --color-text-custom-black: #010101;
     --color-text-custom-white: #f0f0f0;
 }
+
+.link-hover {
+    @apply relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100;
+  }
+.navbar-hover {
+    @apply relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-component-white after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100;
+  }
