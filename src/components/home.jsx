@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import heroImg from "../assets/hero1.png";
 
 const home = () => {
   return (
@@ -39,7 +40,7 @@ const home = () => {
           />
         </svg>
         <img
-          src="src\assets\hero1.png"
+          src={heroImg}
           alt="koenigsegg regera"
           className="max-h-115 contain-content mt-30"
         />
