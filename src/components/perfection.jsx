@@ -34,14 +34,14 @@ const perfection = () => {
       >
         <div
           id="perfection-title"
-          className="flex flex-col items-center gap-3 font-bold text-white text-7xl tracking-widest"
+          className="flex flex-col items-center gap-3 font-ubuntuSans font-bold text-white text-7xl tracking-widest"
         >
           <h1>TOUGHNESS</h1>
           <h1>MEETS</h1>
           <h1>PERFECTTION</h1>
         </div>
         <div id="perfection-text">
-          <p className="text-white text-3xl text-center font-extralight">
+          <p className="font-baiJamjuree text-white text-3xl text-center font-extralight">
             With an engine that beats like the heart of a champion, it soars
             like a dream come true
           </p>

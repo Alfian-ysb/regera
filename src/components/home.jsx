@@ -3,7 +3,7 @@ import "./home.css";
 
 const home = () => {
   return (
-    <div className="w-screen h-screen home-bg flex justify-center items-center">
+    <div id="home" className="w-screen h-screen home-bg flex justify-center items-center">
       <div id="hero1" className="flex justify-center mt-10 flex-col relative">
         <svg
           className="absolute left-[50%] transform translate-x-[-50%] top-16 z-[-10]"

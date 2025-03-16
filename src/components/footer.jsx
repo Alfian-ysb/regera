@@ -2,7 +2,7 @@ import React from "react";
 
 const footer = () => {
   return (
-    <div className="bg-component-white flex flex-col items-center">
+    <div className="bg-primary-white flex flex-col items-center">
       <div
         id="top"
         className="w-[85%] max-h-80 flex items-center place-content-between  gap-10 py-20 border-b-1 border-[#696969] pb-2"
@@ -62,7 +62,7 @@ const footer = () => {
             </li>
             <li>
               <a href="#" className="link-hover">
-                About
+                Merchandise
               </a>
             </li>
             <li>

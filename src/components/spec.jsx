@@ -3,7 +3,7 @@ import "./spec.css";
 
 const spec = () => {
   return (
-    <div className="w-screen h-auto bg-[#E6ECED] flex flex-col justify-center items-center gap-10 box-border py-20 ">
+    <div id="spec" className="w-screen h-auto bg-[#E6ECED] flex flex-col justify-center items-center gap-10 box-border py-20 ">
       <div id="spec-title">
         <h1 className="text-black text-3xl">Specifications</h1>
       </div>

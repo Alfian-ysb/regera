@@ -14,7 +14,7 @@ const autoskin = () => {
                 <img id="bottom right" className="w-[234px] h-auto" src="src/assets/autoskin-rb-bg.png" alt="background" />  
             </div>
         </div>
-        <div id="autoSkin-right" className="w-1/2 text-text-custom-white flex flex-col gap-10 pr-2">
+        <div id="autoSkin-right" className="w-1/2 text-primary-white flex flex-col gap-10 pr-2">
             <h1 className="lg:text-4xl lg:w-[500px] text-center font-ubuntuSans">AutoSkin</h1>
             <div id="autoskin-description" className="lg:w-[550px] flex flex-col gap-5 font-istockWeb">
                 <p className="lg:text-base">The Regera is the first car in the world that operates all body closures completely automatically, at the touch of a button. We call this system 'Autoskin'.</p>

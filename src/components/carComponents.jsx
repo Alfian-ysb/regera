@@ -3,9 +3,9 @@ import './carComponents.css'
 
 const carComponents = () => {
   return (
-    <div className="w-screen h-fit font-archivo text-white">
-        <div id="component-1" className="w-screen bg-component-black flex justify-center items-center">
-            <div id="text" className="w-1/2 h-full text-text-custom-white flex flex-col justify-between items-center gap-20 box-border px-15">
+    <div id="carComponents" className="w-screen h-fit font-archivo text-white">
+        <div id="component-1" className="w-screen bg-primary-black flex justify-center items-center">
+            <div id="text" className="w-1/2 h-full text-primary-white flex flex-col justify-between items-center gap-20 box-border px-15">
                 <div>
                     <h1 className="lg:text-5xl">KDD</h1>
                 </div>
@@ -17,8 +17,8 @@ const carComponents = () => {
                 <img src="src/assets/component-regera-1.png" alt="Car Components" />
             </div>
         </div>
-        <div id="component-2" className="w-screen bg-component-white flex flex-row-reverse justify-center items-center">
-            <div id="text" className="w-1/2 h-full text-text-custom-black flex flex-col justify-between items-center gap-20 box-border px-15">
+        <div id="component-2" className="w-screen bg-primary-white flex flex-row-reverse justify-center items-center">
+            <div id="text" className="w-1/2 h-full text-primary-black flex flex-col justify-between items-center gap-20 box-border px-15">
                 <div>
                     <h1 className="lg:text-5xl">V8</h1>
                 </div>
@@ -30,8 +30,8 @@ const carComponents = () => {
                 <img src="src/assets/component-regera-2.png" alt="Car Components" />
             </div>
         </div>
-        <div id="component-3" className="w-screen bg-component-black flex justify-center items-center">
-            <div id="text" className="w-1/2 h-full text-text-custom-white flex flex-col justify-between items-center gap-20 box-border px-15">
+        <div id="component-3" className="w-screen bg-primary-black flex justify-center items-center">
+            <div id="text" className="w-1/2 h-full text-primary-white flex flex-col justify-between items-center gap-20 box-border px-15">
                 <div>
                     <h1 className="lg:text-5xl">BATTERY</h1>
                 </div>
@@ -43,8 +43,8 @@ const carComponents = () => {
                 <img src="src/assets/component-regera-3.png" alt="Car Components" />
             </div>
         </div>
-        <div id="component-4" className="w-screen bg-component-white flex flex-row-reverse justify-center items-center">
-            <div id="text" className="w-1/2 h-full text-text-custom-black flex flex-col justify-between items-center gap-20 box-border px-15">
+        <div id="component-4" className="w-screen bg-primary-white flex flex-row-reverse justify-center items-center">
+            <div id="text" className="w-1/2 h-full text-primary-black flex flex-col justify-between items-center gap-20 box-border px-15">
                 <div>
                     <h1 className="lg:text-5xl">ELECTRIC
                     MOTORS</h1>
@@ -57,8 +57,8 @@ const carComponents = () => {
                 <img src="src/assets/component-regera-4.png" alt="Car Components" />
             </div>
         </div>
-        <div id="component-5" className="w-screen bg-component-black flex justify-center items-center">
-            <div id="text" className="w-1/2 h-full text-text-custom-white flex flex-col justify-between items-center gap-20 box-border px-15">
+        <div id="component-5" className="w-screen bg-primary-black flex justify-center items-center">
+            <div id="text" className="w-1/2 h-full text-primary-white flex flex-col justify-between items-center gap-20 box-border px-15">
                 <div>
                     <h1 className="lg:text-5xl">SUSPENSION</h1>
                 </div>

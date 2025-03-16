@@ -3,7 +3,7 @@ import React from 'react'
 const clip2 = () => {
   return (
     <div id="clip-2" className="w-screen h-auto flex justify-between items-center box-border py-20">
-        <div id="left" className="w-1/2 flex flex-col items-center gap-10 px-15 py-10 text-text-custom-white ">
+        <div id="left" className="w-1/2 flex flex-col items-center gap-10 px-15 py-10 text-primary-white ">
             <div id="clip2-title" className="flex flex-col items-center gap-6">
               <h1 className="text-7xl font-ubuntuSans text-center mr-24">ELEGANCE</h1>
               <h1 className="text-7xl font-ubuntuSans text-center ml-4">IN</h1>
