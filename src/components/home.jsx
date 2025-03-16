@@ -40,7 +40,11 @@ const home = () => {
           />
         </svg>
         <img
+<<<<<<< HEAD
           src={heroImg}
+=======
+          src="../assets/hero1.png"
+>>>>>>> b9b2686f9c405a72ec8fb84d147a696ee7cc55f3
           alt="koenigsegg regera"
           className="max-h-115 contain-content mt-30"
         />
