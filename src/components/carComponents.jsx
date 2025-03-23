@@ -17,7 +17,7 @@ const carComponents = () => {
                 <img src="src/assets/component-regera-1.png" alt="Car Components" />
             </div>
         </div>
-        <div id="component-2" className="w-screen bg-primary-white flex flex-col-reverse justify-center items-center">
+        <div id="component-2" className="w-screen bg-primary-white flex flex-col-reverse sm:flex-row-reverse justify-center items-center">
             <div id="text" className="w-screen sm:w-1/2 h-full text-primary-black flex flex-col sm:flex-row-reverse justify-between items-center gap-5 sm:gap-10 md:gap-15 lg:gap-20 box-border px-2 py-4 sm:px-6 sm:py-4 md:px-15">
                 <div>
                     <h1 className="text-2xl lg:text-5xl">V8</h1>
@@ -58,7 +58,7 @@ const carComponents = () => {
             </div>
         </div>
         <div id="component-5" className="w-screen bg-primary-black flex flex-col-reverse sm:flex-row justify-center items-center">
-            <div id="text" className="w-screen sm:w-1/2 h-full text-primary-white flex flex-col justify-between items-center gap-5 sm:gap-10 md:gap-15 lg:gap-20 box-border px-2 py-4 sm:px-6 sm:py-4 md:px-15">
+            <div id="text" className="w-screen sm:w-1/2 text-primary-white flex-1 flex flex-col justify-between items-center gap-5 sm:gap-10 md:gap-15 lg:gap-20 box-border px-2 py-4 sm:px-6 sm:py-4 md:px-15">
                 <div>
                     <h1 className="text-2xl lg:text-5xl">SUSPENSION</h1>
                 </div>
@@ -66,7 +66,7 @@ const carComponents = () => {
                     <p className="text-base lg:text-xl font-light text-center">A Koenigsegg's suspension geometry is designed for extremely fast cornering. One of the challenges of this design is that allows the car to "squat" under hard acceleration, e.g. at take-off from standstill.</p>
                 </div>
             </div>
-            <div id="components-img" className="w-screen sm:w-1/2">
+            <div id="components-img" className="w-screen sm:w-1/2 flex-1 h-full">
                 <img src="src/assets/component-regera-5.png" alt="Car Components" />
             </div>
         </div>

@@ -7,7 +7,7 @@ const spec = () => {
       <div id="spec-title">
         <h1 className="text-black text-3xl">Specifications</h1>
       </div>
-      <div id="spec-content" className="flex flex-col lg:flex-row justify-center items-center gap-10">
+      <div id="spec-content" className="flex flex-col lg:flex-row justify-center items-center gap-10 md:p-10">
         <div id="content-left" className="h-full text-black flex flex-row lg:flex-col justify-start items-start gap-10 sm:gap-18 md:gap-20 lg:gap-25">
           <ul id="HP">
             <li>
@@ -60,7 +60,7 @@ const spec = () => {
         </div>
       </div>
       <div id="spec-quote">
-        <p className="text-black font-light text-lg text-center md:text-2xl mt-5 sm:mt-10">
+        <p className="text-black font-light px-8 sm:px-0 text-lg text-center md:text-2xl mt-5 sm:mt-10">
           This hypercar is not just a vehicle, but a masterpiece that is at one
           with the souls of high-performance enthusiasts.
         </p>

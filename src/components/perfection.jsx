@@ -1,9 +1,8 @@
 import React from "react";
-import "./perfection.css";
 
 const perfection = () => {
   return (
-    <div className="w-screen h-auto flex flex-col sm:flex-row items-center justify-between bg-linear-to-b from-[#414040] to-[#010101] rounded-t-4xl md:rounded-t-[3.5rem] py-11">
+    <div className="w-screen h-auto flex flex-col md:flex-row items-center justify-between bg-linear-to-b from-[#414040] to-[#010101] rounded-t-4xl md:rounded-t-[3.5rem] py-11">
       <div
         id="perfection-clips"
         className="w-full md:w-1/2 flex items-center gap-2 px-10 py-10"
@@ -34,14 +33,14 @@ const perfection = () => {
       >
         <div
           id="perfection-title"
-          className="flex flex-col items-center gap-3 font-ubuntuSans font-bold text-white text-4xl sm:text-6xl md:text-7xl tracking-widest"
+          className="font-ubuntusans flex flex-col items-center gap-3 font-ubuntuSans font-bold text-white text-4xl sm:text-6xl md:text-4xl lg:text-7xl tracking-widest"
         >
           <h1>TOUGHNESS</h1>
           <h1>MEETS</h1>
           <h1>PERFECTTION</h1>
         </div>
         <div id="perfection-text">
-          <p className="font-baiJamjuree text-white text-base md:text-3xl text-center font-extralight">
+          <p className="font-baiJamjuree text-white text-xl sm:text-2xl md:text-3xl text-center font-extralight">
             With an engine that beats like the heart of a champion, it soars
             like a dream come true
           </p>
