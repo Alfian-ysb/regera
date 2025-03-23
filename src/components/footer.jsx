@@ -5,16 +5,16 @@ const footer = () => {
     <div className="bg-primary-white flex flex-col items-center">
       <div
         id="top"
-        className="w-[85%] max-h-80 flex items-center place-content-between  gap-10 py-20 border-b-1 border-[#696969] pb-2"
+        className="w-[85%] h-fit flex items-center place-content-between gap-10 py-20 border-b-1 border-[#696969] pb-2"
       >
-        <div id="footer-logo" className="w-1/4 box-border p-20">
+        <div id="footer-logo" className="w-full sm:1/2 md:w-1/3 lg:w-1/4 box-border px-20 sm:p-10 md:p-15 lg:p-20">
           <img
             src="src/assets/logo-footer.svg"
             alt="koenigsegg logo"
-            className="w-full h-auto"
+            className="w-full sm:w-[70%] md:w-full h-auto"
           />
         </div>
-        <div id="footer-links" className="grid grid-cols-3 gap-[10vw] ">
+        <div id="footer-links" className="grid grid-cols-3 gap-[10vw] text-center sm:text-left">
           <ul className="font-leagueSpartan font-medium xl:text-lg flex flex-col gap-4">
             <li>
               <a href="#" className="link-hover">
@@ -31,12 +31,7 @@ const footer = () => {
                 Company
               </a>
             </li>
-            <li>
-              <a href="#" className="link-hover">
-                FAQ
-              </a>
-            </li>
-          </ul>
+            </ul>
           <ul className="font-leagueSpartan font-normal lg:text-md flex flex-col gap-4">
             <li>
               <a href="#" className="link-hover">
@@ -62,7 +57,7 @@ const footer = () => {
             </li>
             <li>
               <a href="#" className="link-hover">
-                Merchandise
+                FAQ
               </a>
             </li>
             <li>

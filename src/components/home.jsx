@@ -1,14 +1,14 @@
 import React from "react";
 import "./home.css";
-import heroImg from "../assets/hero1.png";
+import hero1 from "../assets/hero1.png";
 
 const home = () => {
   return (
     <div id="home" className="w-screen h-screen home-bg flex justify-center items-center">
       <div id="hero1" className="flex justify-center mt-10 flex-col relative">
         <svg
-          className="absolute left-[50%] transform translate-x-[-50%] top-16 z-[-10]"
-          width="1014"
+          className="absolute left-[50%] w-[95%] md:w-full h-[auto] transform translate-x-[-50%] top-25 md:top-20 z-[-10]"
+          max-width="1014"
           height="167"
           viewBox="0 0 1014 167"
           fill="none"
@@ -40,17 +40,13 @@ const home = () => {
           />
         </svg>
         <img
-<<<<<<< HEAD
-          src={heroImg}
-=======
-          src="../assets/hero1.png"
->>>>>>> b9b2686f9c405a72ec8fb84d147a696ee7cc55f3
+          src={hero1}
           alt="koenigsegg regera"
           className="max-h-115 contain-content mt-30"
         />
         <svg
-          className="absolute left-[50%] transform translate-x-[-50%] top-16 z-10"
-          width="1014"
+          className="absolute left-[50%] w-[95%] md:w-full h-auto transform translate-x-[-50%] top-25 md:top-20 z-10"
+          max-width="1014"
           height="167"
           viewBox="0 0 1014 167"
           fill="none"
