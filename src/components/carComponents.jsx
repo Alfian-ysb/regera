@@ -1,5 +1,4 @@
 import React from 'react'
-import './carComponents.css'
 import CarComponents1 from "../assets/component-regera-1.png"
 import CarComponents2 from "../assets/component-regera-2.png"
 import CarComponents3 from "../assets/component-regera-3.png"
