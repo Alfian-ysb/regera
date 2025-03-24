@@ -1,5 +1,10 @@
 import React from 'react'
 import './carComponents.css'
+import CarComponents1 from "../assets/component-regera-1.png"
+import CarComponents2 from "../assets/component-regera-2.png"
+import CarComponents3 from "../assets/component-regera-3.png"
+import CarComponents4 from "../assets/component-regera-4.png"
+import CarComponents5 from "../assets/component-regera-5.png"
 
 const carComponents = () => {
   return (
@@ -14,11 +19,11 @@ const carComponents = () => {
                 </div>
             </div>
             <div id="components-img" className="w-screen sm:w-1/2">
-                <img src="src/assets/component-regera-1.png" alt="Car Components" />
+                <img src={CarComponents1} alt="Car Components" />
             </div>
         </div>
         <div id="component-2" className="w-screen bg-primary-white flex flex-col-reverse sm:flex-row-reverse justify-center items-center">
-            <div id="text" className="w-screen sm:w-1/2 h-full text-primary-black flex flex-col sm:flex-row-reverse justify-between items-center gap-5 sm:gap-10 md:gap-15 lg:gap-20 box-border px-2 py-4 sm:px-6 sm:py-4 md:px-15">
+            <div id="text" className="w-screen sm:w-1/2 h-full text-primary-black flex flex-col justify-between items-center gap-5 sm:gap-10 md:gap-15 lg:gap-20 box-border px-2 py-4 sm:px-6 sm:py-4 md:px-15">
                 <div>
                     <h1 className="text-2xl lg:text-5xl">V8</h1>
                 </div>
@@ -27,7 +32,7 @@ const carComponents = () => {
                 </div>
             </div>
             <div id="components-img" className="w-screen sm:w-1/2">
-                <img src="src/assets/component-regera-2.png" alt="Car Components" />
+                <img src={CarComponents2} alt="Car Components" />
             </div>
         </div>
         <div id="component-3" className="w-screen bg-primary-black flex flex-col-reverse sm:flex-row justify-center items-center">
@@ -40,7 +45,7 @@ const carComponents = () => {
                 </div>
             </div>
             <div id="components-img" className="w-screen sm:w-1/2">
-                <img src="src/assets/component-regera-3.png" alt="Car Components" />
+                <img src={CarComponents3} alt="Car Components" />
             </div>
         </div>
         <div id="component-4" className="w-screen bg-primary-white flex flex-col-reverse sm:flex-row-reverse justify-center items-center">
@@ -54,7 +59,7 @@ const carComponents = () => {
                 </div>
             </div>
             <div id="components-img" className="w-screen sm:w-1/2">
-                <img src="src/assets/component-regera-4.png" alt="Car Components" />
+                <img src={CarComponents4} alt="Car Components" />
             </div>
         </div>
         <div id="component-5" className="w-screen bg-primary-black flex flex-col-reverse sm:flex-row justify-center items-center">
@@ -67,7 +72,7 @@ const carComponents = () => {
                 </div>
             </div>
             <div id="components-img" className="w-screen sm:w-1/2 flex-1 h-full">
-                <img src="src/assets/component-regera-5.png" alt="Car Components" />
+                <img src={CarComponents5} alt="Car Components" />
             </div>
         </div>
     </div>

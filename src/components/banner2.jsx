@@ -1,11 +1,12 @@
 import React from "react";
+import Banner2 from "../assets/banner-2.png";
 
 const banner2 = () => {
   return (
     <div className="w-screen h-fit-content relative">
       <img
         id="banner-2"
-        src="./src/assets/banner-2.png"
+        src={Banner2}
         alt="interior koenigsegg regera"
         className="aspect-3/2 sm:aspect-auto object-cover"
       />

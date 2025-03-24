@@ -1,4 +1,7 @@
 import React from "react";
+import perfectionClip1 from "../assets/perfection-1.png"
+import perfectionClip2 from "../assets/perfection-2.png"
+import perfectionClip3 from "../assets/perfection-3.png"
 
 const perfection = () => {
   return (
@@ -9,19 +12,19 @@ const perfection = () => {
       >
         <div id="left">
           <img
-            src="src\assets\perfection-1.png"
+            src={perfectionClip1}
             alt="koenigseg regera clip"
             className="w-64 h-auto"
           />
         </div>
         <div id="right" className="flex flex-col gap-2">
           <img
-            src="src\assets\perfection-2.png"
+            src={perfectionClip2}
             alt="koenigseg regera clip"
             className="w-64 h-auto"
           />
           <img
-            src="src\assets\perfection-3.png"
+            src={perfectionClip3}
             alt="koenigseg regera clip"
             className="w-64 h-auto"
           />

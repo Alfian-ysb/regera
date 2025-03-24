@@ -1,10 +1,14 @@
+:root{
+    --autoSkin-hero: url("src/assets/autoskin-hero.png");
+}
+
 #autoSkin-left{
  position: relative;   
 }
 
 #autoSkin-left::after{
     content: "" ;
-    background: url("src/assets/autoskin-hero.png") no-repeat;
+    background: var(--autoSkin-hero) no-repeat;
     background-size: contain;
     background-position: center;
     position: absolute;

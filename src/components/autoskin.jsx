@@ -1,17 +1,21 @@
 import React from 'react'
 import './autoskin.css'
+import bgTopLeft from '../assets/autoskin-tl-bg.png'
+import bgBottomLeft from '../assets/autoskin-bl-bg.png' 
+import bgTopRight from '../assets/autoskin-rt-bg.png'
+import bgBottomRight from '../assets/autoskin-rb-bg.png'
 
 const autoskin = () => {
   return (
     <div className="w-screen flex flex-col md:flex-row justify-center items-center gap-10 box-border px-4 py-10">
         <div id="autoSkin-left" className="w-full flex items-center justify-center gap-x-3 px-4 md:pl-10">
             <div id="autoSkin-hero-left-bg" className="flex flex-col gap-y-3">
-                <img id="top left" className="w-[256px] h-auto" src="src/assets/autoskin-tl-bg.png" alt="background" />
-                <img id="bottom left" className="w-[256px] h-auto" src="src/assets/autoskin-bl-bg.png" alt="background" />
+                <img id="top left" className="w-[256px] h-auto" src={bgTopLeft} alt="background" />
+                <img id="bottom left" className="w-[256px] h-auto" src={bgBottomLeft} alt="background" />
             </div>
             <div id="autoSkin-hero-right-bg" className=" flex flex-col gap-y-3">
-                <img id="top right" className="w-[234px] h-auto" src="src/assets/autoskin-rt-bg.png" alt="background" />  
-                <img id="bottom right" className="w-[234px] h-auto" src="src/assets/autoskin-rb-bg.png" alt="background" />  
+                <img id="top right" className="w-[234px] h-auto" src={bgTopRight} alt="background" />  
+                <img id="bottom right" className="w-[234px] h-auto" src={bgBottomRight} alt="background" />  
             </div>
         </div>
         <div id="autoSkin-right" className="w-screen  md:w-1/2 text-primary-white flex flex-col gap-10 px-6 md:px-2">

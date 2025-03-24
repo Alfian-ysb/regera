@@ -1,5 +1,6 @@
 import React from "react";
 import "./spec.css";
+import carSpec from "../assets/regera-spec.png";
 
 const spec = () => {
   return (
@@ -31,7 +32,7 @@ const spec = () => {
         </div>
         <div id="content-image" className="order-first lg:order-none px-8">
           <img
-            src="src\assets\regera-spec.png"
+            src={carSpec}
             alt="koenigsegg regera"
             className=" w-full h-auto"
           />

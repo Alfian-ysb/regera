@@ -1,4 +1,5 @@
 import React from "react";
+import logoFooter from "../assets/logo-footer.svg";
 
 const footer = () => {
   return (
@@ -9,7 +10,7 @@ const footer = () => {
       >
         <div id="footer-logo" className="w-full sm:1/2 md:w-1/3 lg:w-1/4 box-border px-16 sm:p-10 md:p-15 lg:p-20">
           <img
-            src="src/assets/logo-footer.svg"
+            src={logoFooter}
             alt="koenigsegg logo"
             className="w-full sm:w-[70%] md:w-full h-auto"
           />

@@ -1,4 +1,7 @@
 import React from 'react'
+import Clip2_1 from "../assets/clip2-1.png"
+import Clip2_2 from "../assets/clip2-2.png"
+import Clip2_3 from "../assets/clip2-3.png"
 
 const clip2 = () => {
   return (
@@ -15,11 +18,11 @@ const clip2 = () => {
         </div>
         <div id="right" className="w-full sm:w-1/2 flex items-center p-8 md:p-0 gap-2 order-first sm:order-none">
           <div id="clip2-img-left" className="flex flex-col gap-2">
-            <img src="src/assets/clip2-1.png" alt="koenigsegg regera clip" className="w-62 h-auto" />
-            <img src="src/assets/clip2-2.png" alt="koenigsegg regera clip" className="w-62 h-auto" />
+            <img src={Clip2_1} alt="koenigsegg regera clip" className="w-62 h-auto" />
+            <img src={Clip2_2} alt="koenigsegg regera clip" className="w-62 h-auto" />
           </div>
           <div id="clip2-img-right">
-            <img src="src/assets/clip2-3.png" alt="koenigsegg regera clip" className="w-62 h-auto" />
+            <img src={Clip2_3} alt="koenigsegg regera clip" className="w-62 h-auto" />
           </div>
         </div>
     </div>
