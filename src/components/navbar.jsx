@@ -1,4 +1,5 @@
 import React from "react";
+import theGhostLogo from "../assets/theGost-logo.png";
 import {Link as ScrollLink } from "react-scroll";
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -36,7 +37,7 @@ export default function navbar () {
                 duration={1000}>
                 <img
                   className="w-auto h-15 cursor-pointer"
-                  src="../src/assets/theGost-logo.png"
+                  src={theGhostLogo}
                   alt="the ghost logo"
                 />
               </ScrollLink>
